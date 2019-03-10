@@ -27,7 +27,6 @@ default current_lobby=[]
 default recv_packet_thread=threading.Thread(target=recv_packet, args=())
 default combination='000'
 default countdown_sec=3
-#current_lobby=[lobby_name, player_1, player_2, {player1:pl1_mark, player2:pl2_mark}, {player1:True/False, player2:True/False}]
 
 init python:
     import socket
